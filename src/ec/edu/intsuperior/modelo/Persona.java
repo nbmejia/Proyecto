@@ -19,8 +19,8 @@ public class Persona {
     private String email;
     private String telefono;
     private String fechaNacimiento;
-  
-    private Carrera carrera;
+    private TipoSangre tipoSangre;   
     private Ciudad ciudad;
+    
 
 }

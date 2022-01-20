@@ -9,11 +9,6 @@ package ec.edu.intsuperior.modelo;
  *
  * @author Santiago
  */
-public class Alumno extends Persona {
-
-    private Nivel nivel;
-    private Paralelo paralelo;
-    private Carrera carrera;
-    private boolean graduado;
-
+public class Guardia extends Persona {
+    
 }

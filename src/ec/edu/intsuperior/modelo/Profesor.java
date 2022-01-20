@@ -10,5 +10,6 @@ package ec.edu.intsuperior.modelo;
  * @author Santiago
  */
 public class Profesor extends Persona {
+    private Carrera carrera;
 
 }
