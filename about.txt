@@ -1,0 +1,3 @@
+Este documento me va a mostrar datos acerca del proyetco de lista de estudiantes.
+Author: Nelson Mejía.
+Ciudad: Ambato.
