@@ -7,7 +7,7 @@ package ec.edu.intsuperior.modelo;
 
 /**
  *
- * @author Santiago
+ * @author Nelson
  */
 public class Carrera {
     private String codigo;
