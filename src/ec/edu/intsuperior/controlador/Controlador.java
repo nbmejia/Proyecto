@@ -7,13 +7,13 @@ package ec.edu.intsuperior.controlador;
 
 import ec.edu.intsuperior.modelo.Alumno;
 import ec.edu.intsuperior.modelo.Region;
+import ec.edu.intsuperior.modelo.TipoSangre;
+import java.util.ArrayList;
 import java.util.Scanner;
-import javax.swing.JOptionPane;
-import jdk.nashorn.internal.parser.Lexer;
 
 /**
  *
- * @author Santiago
+ * @author Nelson
  */
 public class Controlador {
     Alumno alumno= new Alumno();
@@ -32,4 +32,10 @@ public class Controlador {
         } while (op!=0);
         
     }
+     ArrayList<TipoSangre> listadoTipo= new ArrayList<>();
+     
+    public void ingresarTiposSangre(TipoSangre tipo){
+       listadoTipo.add(tipo);
+    }
+  
 }
